@@ -10,6 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.post("/welcome", function (req, resp) {
     resp.render("register");
 })
+// Ad lan 2
 
 
 app.get('/tam-sinh-ly', function (req, resp) { resp.send("Hello tam-sinh-ly")});
